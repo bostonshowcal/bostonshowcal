@@ -1,0 +1,4 @@
+- name: Download File
+  run: |
+    curl https://docs.google.com/spreadsheets/d/e/2PACX-1vTe-Bj4T4j5uz3Q0y61qholVuxuSLZCNB7Vm5iRl95_vW-4K3itucT-p5NuNLMaApNnYycDTc9JOb_t/pub?gid=1848819681&single=true&output=tsv --output ./test.tsv
+  working-directory: ${{ github.workspace }}
