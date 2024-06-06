@@ -1,4 +1,4 @@
-name: Run tests on staging
+name: run testststs
 on:
   push:
     branches:
