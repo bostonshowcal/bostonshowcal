@@ -1,4 +1,4 @@
-name: run testststs
+name: run teststs
 on:
   push:
     branches:
