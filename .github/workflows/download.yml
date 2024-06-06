@@ -12,13 +12,15 @@ jobs:
       run: |
         curl https://build5nines.com/folder/file.json --output ./file.json
       working-directory: ${{ github.workspace }}
-    - uses: actions4git/add-commit-push@v1.0.0
-    - run: git config --global user.name "${{ github.actor }}"
-    - run: git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-    - run: git init
-    - run: git add file.json
-    - run: git commit -m 'Update downloaded file'
-    - run: git push
+
+      
+    # - uses: actions4git/add-commit-push@v1.0.0
+    # - run: git config --global user.name "${{ github.actor }}"
+    # - run: git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+    # - run: git init
+    # - run: git add file.json
+    # - run: git commit -m 'Update downloaded file'
+    # - run: git push
       
             
     # - name: Commit and Push Changes
@@ -30,6 +32,7 @@ jobs:
     #     git add file.json
     #     git commit -m 'Update downloaded file'
     #     git push
+    
       # uses: actions/checkout@v4
     # - name: curl
     #   uses: sozo-design/curl@v1.0.2
