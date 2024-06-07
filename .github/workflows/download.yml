@@ -7,11 +7,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "starting up the download"
+    # - run: echo "starting up the download"
     - name: Download File
       run: |
         curl https://build5nines.com/folder/file.json --output ./file.json
       working-directory: ${{ github.workspace }}
+
+    - name: setup git config
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+    - name: commit
+      run: |
+        git add ./file.json
+        git commit -m "new date commit"
+        git push origin master
 
       
     # - uses: actions4git/add-commit-push@v1.0.0
