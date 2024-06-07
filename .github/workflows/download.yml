@@ -1,4 +1,4 @@
-name: Lets Download some files
+name: Raef's file downloader
 
 on:
   workflow_dispatch:
