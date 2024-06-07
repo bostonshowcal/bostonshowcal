@@ -7,6 +7,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: git login
+      run: |
+        gh auth login --with-token < ./my-token.txt
+    
     - name: checkout
       # checkout the branch
       uses: actions/checkout@v4
