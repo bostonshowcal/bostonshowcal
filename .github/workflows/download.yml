@@ -7,11 +7,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: checkout
+      # checkout the branch
+      uses: actions/checkout@v4
+    
     # - run: echo "starting up the download"
     - name: Download File
       run: |
         curl https://build5nines.com/folder/file.json --output ./file.json
-      working-directory: ${{ github.workspace }}
+      # working-directory: ${{ github.workspace }}
 
     - name: setup git config
       run: |
