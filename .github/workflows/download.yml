@@ -29,7 +29,7 @@ jobs:
 
     - name: commit
       run: |
-        # git add ./file.json
+        git add ./file.tsv
         git commit -m "new date commit"
         git push
 
