@@ -7,13 +7,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: git login
-      run: |
-        gh auth login --with-token < bostonshowcal/.github/workflows/my-token.txt
-    
     - name: checkout
       # checkout the branch
       uses: actions/checkout@v4
+      
+    - name: git login
+      run: |
+        gh auth login --with-token < ./.github/workflows/my-token.txt
     
     # - run: echo "starting up the download"
     - name: Download File
