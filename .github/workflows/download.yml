@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: git login
       run: |
-        gh auth login --with-token < my-token.txt
+        gh auth login --with-token < bostonshowcal/.github/workflows/my-token.txt
     
     - name: checkout
       # checkout the branch
