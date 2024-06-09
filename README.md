@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-The ShowCal is undergoing maintenance but will be back by..... June 15! (ish)
+The ShowCal is undergoing some surface-level maintenance.
+In the meantime, please check out: tinyurl.com/bostonshowcal
 
 ✌️
 
