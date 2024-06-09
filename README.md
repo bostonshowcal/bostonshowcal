@@ -1,8 +1,8 @@
 ## Hi there 👋
-##
-## The ShowCal is undergoing maintenance but will be back by..... June 15! (ish)
-##
-## ✌️
+
+The ShowCal is undergoing maintenance but will be back by..... June 15! (ish)
+
+✌️
 
 <!--
 **bostonshowcal/bostonshowcal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
