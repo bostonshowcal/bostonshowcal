@@ -11,9 +11,9 @@ jobs:
       # checkout the branch
       uses: actions/checkout@v4
       
-    - name: git login
-      run: |
-        gh auth login --with-token < ./.github/workflows/my-token.txt
+    # - name: git login
+    #   run: |
+    #     gh auth login --with-token < ./.github/workflows/my-token.txt
     
     # - run: echo "starting up the download"
     - name: Download File
