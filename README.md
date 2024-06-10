@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-The ShowCal is undergoing some surface-level maintenance.
+The ShowCal is undergoing some maintenance.
 
 In the meantime, please check out: [tinyurl.com/bostonshowcal](https://tinyurl.com/bostonshowcal)
 
