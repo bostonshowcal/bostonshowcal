@@ -1,7 +1,10 @@
 name: Raef's file downloader
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *" # daily at 12:00 AM
+  # you can add more here triggers see: https://docs.github.com/en/actions/using-workflows/triggering-a-workflow
+  # example, it will run every day for the `main`
 
 jobs:
   build:
