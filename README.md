@@ -1,10 +1,19 @@
 ## Hi there 👋
 
+Unfortunately the ShowCal is on hiatus for now.
+
+Msg if you have any questions or other words:
+bostonshowcal@gmail.com
+
+✌️
+
+<!--
 The ShowCal is undergoing some maintenance.
 
 In the meantime, please check out: [tinyurl.com/bostonshowcal](https://tinyurl.com/bostonshowcal)
 
 ✌️
+-->
 
 <!--
 **bostonshowcal/bostonshowcal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
